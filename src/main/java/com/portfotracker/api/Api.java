@@ -14,23 +14,24 @@ import org.apache.http.util.EntityUtils;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
+import java.util.Hashtable;
 import java.util.List;
 
-public class RequestToApi {
+class Api {
 
     private String URI;
     private String apiKey;
 
-    public RequestToApi(String URI, String apiKey) {
+    public Api(String URI, String apiKey) {
         this.URI = URI;
         this.apiKey = apiKey;
     }
 
-    public RequestToApi(String URI) {
+    public Api(String URI) {
         this.URI = URI;
     }
 
-    public String makeApiCall(List<NameValuePair> parameters)
+    public String requestToApi(List<NameValuePair> parameters, Hashtable<String, String> headers)
             throws URISyntaxException, IOException {
 
         String response_content = "";
@@ -39,15 +40,13 @@ public class RequestToApi {
         CloseableHttpClient client = HttpClients.createDefault();
         HttpGet request = new HttpGet(query.build());
 
-        request.setHeader(HttpHeaders.ACCEPT, "application/json");
-        request.addHeader("X-CMC_PRO_API_KEY", this.apiKey);
+        headers.forEach((name, value) -> request.setHeader(name, value));
 
         CloseableHttpResponse response = client.execute(request);
 
 
 
         try {
-            System.out.println(response.getStatusLine());
             HttpEntity entity = response.getEntity();
             response_content = EntityUtils.toString(entity);
             EntityUtils.consume(entity);

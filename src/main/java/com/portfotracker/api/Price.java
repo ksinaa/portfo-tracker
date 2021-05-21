@@ -5,8 +5,6 @@ import com.portfotracker.api.Api;
 import com.portfotracker.api.config.config;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
-import org.junit.Test;
-import org.junit.Assert;
 import org.json.JSONObject;
 
 import java.io.IOException;
@@ -15,15 +13,9 @@ import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.List;
 
-public class GetPrice {
+public class Price {
 
-    static String symbol = "BTC";
-
-
-    @Test
-    public void testUrlReturnsPrice() throws URISyntaxException, IOException {
-
-
+    static String getPrice(String symbol) throws URISyntaxException, IOException {
         List<NameValuePair> values = new ArrayList<>();
 
         values.add(new BasicNameValuePair("amount", "1"));
@@ -37,8 +29,9 @@ public class GetPrice {
 
         Api req = new Api(config.URL);
 
-        System.out.println(new Api(config.URL).requestToApi(values, headers));
         JSONObject jsonObject = new JSONObject(new Api(config.URL).requestToApi(values, headers));
-        System.out.println(jsonObject.getDouble("price"));
+
+        return String.valueOf(jsonObject.getDouble("price"));
     }
+
 }
