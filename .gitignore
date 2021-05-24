@@ -24,3 +24,5 @@ hs_err_pid*
 /target/
 /bin/
 /src/main/java/com/portfotracker/api/config/config.java
+/.idea/
+/data/

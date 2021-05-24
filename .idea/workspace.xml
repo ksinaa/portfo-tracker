@@ -5,21 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="569ca825-4ba9-47ef-9928-e08fdfc2e215" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20210307.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_2_02.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_2_02.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/Price.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_studio_org_apache_httpcomponents_httpcore_4_1_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_2_0.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_132.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_132.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_2_02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_suite_api_1_2_02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/portfo/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/portfo/Portfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/utils/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/portfotracker/api/PriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_2_02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_2_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_suite_api_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_suite_api_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_suite_api_1_2_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfo-tracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/portfo-tracker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/RequestToApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/Api.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/portfotracker/api/GetPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/portfotracker/api/GetPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/portfotracker/api/GetPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/portfotracker/api/ApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +38,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="1s7lfqMGgozw06SZb68yCVJ4td5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -45,6 +58,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -54,7 +68,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="RunManager" selected="JUnit.GetPrice.testUrlReturnsPrice">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -81,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPrice.testUrlReturnsPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="portfo-tracker" />
       <extension name="coverage">
         <pattern>
@@ -90,7 +104,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.portfotracker.api" />
-      <option name="MAIN_CLASS_NAME" value="com.portfotracker.api.GetPrice" />
+      <option name="MAIN_CLASS_NAME" value="com.portfotracker.api.ApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.testUrlReturnsPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="portfo-tracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.portfotracker.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.portfotracker.api" />
+      <option name="MAIN_CLASS_NAME" value="com.portfotracker.api.ApiTest" />
       <option name="METHOD_NAME" value="testUrlReturnsPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -99,8 +128,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GetPrice.testUrlReturnsPrice" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ApiTest.testUrlReturnsPrice" />
+        <item itemvalue="JUnit.ApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +154,13 @@
       <workItem from="1621229242196" duration="2769000" />
       <workItem from="1621322874354" duration="1661000" />
       <workItem from="1621531367950" duration="2455000" />
-      <workItem from="1621578838781" duration="3199000" />
+      <workItem from="1621578838781" duration="4672000" />
+      <workItem from="1621672797585" duration="2016000" />
+      <workItem from="1621688850890" duration="2704000" />
+      <workItem from="1621704470716" duration="1108000" />
+      <workItem from="1621744305575" duration="1879000" />
+      <workItem from="1621766683915" duration="4187000" />
+      <workItem from="1621867000470" duration="1127000" />
     </task>
     <servers />
   </component>

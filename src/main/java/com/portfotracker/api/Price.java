@@ -1,7 +1,5 @@
 package com.portfotracker.api;
 
-import com.portfotracker.api.Api;
-
 import com.portfotracker.api.config.config;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
@@ -23,15 +21,13 @@ public class Price {
 
         Hashtable headers = new Hashtable();
 
-
         headers.put("X-CMC_PRO_API_KEY", config.apikey);
         headers.put("Accepts", "application/json");
 
-        Api req = new Api(config.URL);
-
         JSONObject jsonObject = new JSONObject(new Api(config.URL).requestToApi(values, headers));
 
-        return String.valueOf(jsonObject.getDouble("price"));
+        return String.valueOf(jsonObject.getJSONObject("data").getJSONObject("quote").getJSONObject("USD")
+                .getDouble("price"));
     }
 
 }

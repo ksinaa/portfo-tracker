@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.List;
 
-public class GetPrice {
+public class ApiTest {
 
     static String symbol = "BTC";
 
@@ -39,6 +39,7 @@ public class GetPrice {
 
         System.out.println(new Api(config.URL).requestToApi(values, headers));
         JSONObject jsonObject = new JSONObject(new Api(config.URL).requestToApi(values, headers));
-        System.out.println(jsonObject.getDouble("price"));
+        System.out.println(jsonObject.getJSONObject("data").getJSONObject("quote").getJSONObject("USD")
+                .getDouble("price"));
     }
 }
