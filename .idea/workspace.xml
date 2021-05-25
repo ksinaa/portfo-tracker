@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="569ca825-4ba9-47ef-9928-e08fdfc2e215" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_132.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_132.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_2_02.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_suite_api_1_2_02.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/portfo/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/portfo/Portfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/utils/FileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/portfotracker/api/PriceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_2_02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_suite_api_1_2_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfo-tracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/portfo-tracker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/Api.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/Price.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/portfotracker/api/GetPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/portfotracker/api/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/api/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/portfotracker/utils/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/portfotracker/utils/FileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +63,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,7 +141,8 @@
       <workItem from="1621704470716" duration="1108000" />
       <workItem from="1621744305575" duration="1879000" />
       <workItem from="1621766683915" duration="4187000" />
-      <workItem from="1621867000470" duration="1127000" />
+      <workItem from="1621867000470" duration="1276000" />
+      <workItem from="1621965312263" duration="706000" />
     </task>
     <servers />
   </component>

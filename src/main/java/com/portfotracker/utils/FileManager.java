@@ -31,32 +31,17 @@ public class FileManager {
 
         String rootPath = System.getProperty("user.dir") + "/data";
 
-        for (String dir:path) {
-            File directory = new File(rootPath);
-            if(!directory.exists()){
-                directory.mkdir();
-            }
-
-            rootPath = rootPath + "/" + dir;
-        }
-        File directory = new File(rootPath);
-        if(!directory.exists()){
-            directory.mkdir();
+        for (int i = 0; i < path.size(); i++) {
+            rootPath = rootPath + "/" + path.get(i);
         }
 
         try {
-            File jsonFile = new File(String.format(rootPath, "/", fileName));
+            File jsonFile = new File(rootPath + "/" + fileName);
             jsonFile.createNewFile();
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-
-    }
-
-    public static void writeJsonFile(String fileName, JSONObject value) throws IOException, ParseException {
-        JSONParser parser = new JSONParser();
-        Object file = parser.parse(new FileReader(String.format(System.getProperty("user.dir") ,"/data/%s", fileName)));
     }
 
     private static void createDataDir(){
